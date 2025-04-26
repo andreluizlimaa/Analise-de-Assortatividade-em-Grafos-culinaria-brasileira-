@@ -12,7 +12,7 @@ O objetivo deste projeto foi construir um grafo de co-ocorrência de ingrediente
 
 Para este trabalho:
 - Coletei 50 receitas populares da culinária brasileira do site https://www.penaestrada.blog.br/comidas-tipicas-do-brasil/.
-- Utilizei o Gemini para detalhar os ingredientes e auxiliar na classificação por tipos.
+- Utilizei o Claude 3.7 Sonnet para detalhar os ingredientes e auxiliar na classificação por tipos.
 - Construí um grafo de co-ocorrência onde:
   - **Nós**: ingredientes (classificados por tipo)
   - **Arestas**: co-ocorrência na mesma receita
@@ -71,7 +71,7 @@ Observações importantes:
 
 - **Co-ocorrências entre mesmo tipo (homofilia)**: 14.63%
 - **Co-ocorrências entre tipos diferentes (heterofilia)**: 85.37%
-- **Coeficiente de assortatividade**: [valor calculado]
+- **Coeficiente de assortatividade**: -0.0357
 
 Este resultado é bastante significativo e demonstra uma forte tendência da culinária brasileira em valorizar combinações contrastantes entre diferentes tipos de ingredientes.
 
