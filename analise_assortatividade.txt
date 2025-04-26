@@ -1,0 +1,46 @@
+=== ANÁLISE DE ASSORTATIVIDADE NA CULINÁRIA BRASILEIRA ===
+
+Coeficiente de assortatividade: -0.0357
+A culinária brasileira apresenta um equilíbrio entre combinações homogêneas e contrastantes.
+
+Co-ocorrências entre mesmo tipo (homofilia): 14.63%
+Co-ocorrências entre tipos diferentes (heterofilia): 85.37%
+
+Combinações mais frequentes:
+1. Condimento + Vegetal: 9.23%
+2. Proteína + Vegetal: 9.09%
+3. Condimento + Proteína: 6.96%
+4. Carboidrato + Proteína: 5.68%
+5. Vegetal + Vegetal: 5.54%
+6. Carboidrato + Condimento: 5.54%
+7. Carboidrato + Vegetal: 4.69%
+8. Carboidrato + Fruta: 4.55%
+9. Carboidrato + Laticínio: 4.40%
+10. Carboidrato + Gordura: 3.69%
+
+Estatísticas por tipo de ingrediente:
+Proteína: 24 ingredientes, grau médio: 7.62
+Gordura: 5 ingredientes, grau médio: 15.20
+Vegetal: 7 ingredientes, grau médio: 22.43
+Condimento: 14 ingredientes, grau médio: 11.43
+Carboidrato: 17 ingredientes, grau médio: 9.35
+Laticínio: 5 ingredientes, grau médio: 13.20
+Fruta: 10 ingredientes, grau médio: 7.20
+Outro: 8 ingredientes, grau médio: 5.38
+
+Ingredientes centrais na culinária brasileira:
+cebola (Vegetal): conectado a 53 outros ingredientes
+sal (Condimento): conectado a 47 outros ingredientes
+alho (Vegetal): conectado a 34 outros ingredientes
+tomate (Vegetal): conectado a 33 outros ingredientes
+manteiga (Gordura): conectado a 33 outros ingredientes
+açúcar (Carboidrato): conectado a 30 outros ingredientes
+ovos (Proteína): conectado a 26 outros ingredientes
+arroz (Carboidrato): conectado a 23 outros ingredientes
+farinha de mandioca (Carboidrato): conectado a 21 outros ingredientes
+farinha de trigo (Carboidrato): conectado a 21 outros ingredientes
+linguiça (Proteína): conectado a 20 outros ingredientes
+coentro (Condimento): conectado a 19 outros ingredientes
+pimentão (Vegetal): conectado a 19 outros ingredientes
+leite de coco (Laticínio): conectado a 18 outros ingredientes
+limão (Fruta): conectado a 18 outros ingredientes
