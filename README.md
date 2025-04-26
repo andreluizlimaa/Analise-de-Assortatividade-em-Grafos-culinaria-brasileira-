@@ -1,8 +1,8 @@
 # Análise de Assortatividade na Culinária Brasileira
 
-**Nome completo:** [Seu nome completo]  
-**Matrícula:** [Sua matrícula]  
-**Curso:** [Seu curso]
+**Nome completo:** André Luiz Lima Souza  
+**Matrícula:** 20240001233 
+**Curso:** Engenharia da Computação
 
 ## Objetivo da Atividade
 
@@ -75,7 +75,7 @@ Observações importantes:
 
 Este resultado é bastante significativo e demonstra uma forte tendência da culinária brasileira em valorizar combinações contrastantes entre diferentes tipos de ingredientes.
 
-## Discussão dos Principais Achados (500 palavras)
+## Discussão dos Principais Achados
 
 A análise de assortatividade do grafo de co-ocorrência de ingredientes da culinária brasileira revelou padrões significativos que refletem tanto aspectos culturais quanto nutricionais desta gastronomia.
 

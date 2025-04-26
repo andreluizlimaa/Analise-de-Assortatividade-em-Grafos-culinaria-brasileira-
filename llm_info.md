@@ -1,7 +1,7 @@
 # Informações sobre o Uso de LLM no Projeto
 
 ## Modelo Utilizado
-Para este projeto, utilizei o **Gemini** para auxiliar na análise e classificação dos ingredientes da culinária brasileira.
+Para este projeto, utilizei o **Claude 3.7 Sonnet** para auxiliar na análise e classificação dos ingredientes da culinária brasileira.
 
 ## Prompts Utilizados
 
@@ -33,4 +33,4 @@ Ingredientes:
 ```
 
 ## Processo de Extração
-As receitas foram coletadas manualmente do site [nome do website], mas utilizei o Gemini para ajudar a classificar e padronizar os nomes dos ingredientes, garantindo consistência na análise de co-ocorrência.
+As receitas foram coletadas manualmente do site https://www.penaestrada.blog.br/comidas-tipicas-do-brasil/, mas utilizei o Gemini para ajudar a classificar e padronizar os nomes dos ingredientes, garantindo consistência na análise de co-ocorrência.
