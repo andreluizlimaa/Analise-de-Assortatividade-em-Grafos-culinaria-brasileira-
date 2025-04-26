@@ -11,7 +11,7 @@ O objetivo deste projeto foi construir um grafo de co-ocorrência de ingrediente
 ## Metodologia
 
 Para este trabalho:
-- Coletei 50 receitas populares da culinária brasileira do site [nome do website].
+- Coletei 50 receitas populares da culinária brasileira do site https://www.penaestrada.blog.br/comidas-tipicas-do-brasil/.
 - Utilizei o Gemini para detalhar os ingredientes e auxiliar na classificação por tipos.
 - Construí um grafo de co-ocorrência onde:
   - **Nós**: ingredientes (classificados por tipo)
