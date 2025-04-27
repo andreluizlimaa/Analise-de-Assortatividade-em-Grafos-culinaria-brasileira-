@@ -1,8 +1,8 @@
 # Análise de Assortatividade na Culinária Brasileira
 
-**Nome completo:** André Luiz Lima Souza
+**Nome completo:** André Luiz Lima Souza  
 
-**Matrícula:** 20240001233
+**Matrícula:** 20240001233 
 
 **Curso:** Engenharia da Computação
 
@@ -72,14 +72,14 @@ Com base na matriz de co-ocorrência normalizada:
 |---------|------------|------------|
 | 1 | Fruta + Carboidrato | 31% |
 | 2 | Laticínio + Carboidrato | 31% |
-| 3 | Vegetal + Outro | 26% |
-| 4 | Proteína + Outro | 27% |
-| 5 | Condimento + Outro | 26% |
-| 6 | Vegetal + Proteína | 22% |
-| 7 | Vegetal + Condimento | 22% |
+| 3 | Proteína + Vegetal | 27% |
+| 4 | Condimento + Vegetal | 26% |
+| 5 | Vegetal + Vegetal | 26% |
+| 6 | Vegetal + Condimento | 22% |
+| 7 | Proteína + Condimento | 21% |
 | 8 | Gordura + Carboidrato | 21% |
-| 9 | Gordura + Outro | 21% |
-| 10 | Proteína + Condimento | 21% |
+| 9 | Gordura + Vegetal | 21% |
+| 10 | Proteína + Carboidrato | 17% |
 
 ### Análise de Homofilia vs. Heterofilia
 
@@ -103,15 +103,14 @@ A forte heterofilia observada (85.37%) reflete características fundamentais da 
 
 4. **Importância dos Carboidratos como Base**: A alta co-ocorrência de Carboidrato com Fruta (31%) e Laticínio (31%) revela como os carboidratos servem de base para diversas preparações, especialmente doces e sobremesas típicas.
 
-5. **Centralidade dos Condimentos**: Ingredientes como sal, pimenta e coentro são visualmente centrais no grafo, demonstrando seu papel fundamental na formação do perfil sensorial das receitas brasileiras.
+5. **Relação Proteína-Vegetal**: A forte conexão entre proteínas e vegetais (27%) demonstra um padrão fundamental na culinária brasileira, presente em pratos como moquecas, vatapás e diversos guisados.
 
 Estes resultados explicam padrões comuns na gastronomia brasileira:
 
-- **Feijão com Arroz**: Combinação clássica de Proteína + Carboidrato
-- **Carnes com Farofa**: Proteína + Carboidrato
-- **Moquecas**: Proteína + Vegetal + Condimento + Gordura (azeite de dendê)
+- **Doces brasileiros**: Carboidrato + Fruta + Laticínio (como em quindins, cocadas, pudins)
+- **Moquecas e Ensopados**: Proteína + Vegetal + Condimento
 - **Feijoada**: Proteína + Vegetal + Condimento
-- **Doces brasileiros**: Carboidrato + Fruta + Laticínio (como em quindins, cocadas, doce de leite)
+- **Farofas**: Carboidrato + Gordura + Condimento
 
 Observamos também que as gorduras, apesar de menos numerosas (apenas 5 ingredientes distintos), apresentam alto grau médio (15.20), indicando seu papel crucial como elementos de ligação entre diferentes receitas. Isso reflete a importância de ingredientes como azeite de dendê, manteiga e banha na formação do perfil sensorial das preparações.
 
