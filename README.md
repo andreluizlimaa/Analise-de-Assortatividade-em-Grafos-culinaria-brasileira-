@@ -32,7 +32,7 @@ As versões de cada uma delas pode ser encontrada no arquivo requirements.txt.
 
 ## Apresentação do Trabalho
 
-[Link para o vídeo de apresentação (até 5min)]
+https://drive.google.com/file/d/1ITcUsXoxNCPIGP11yfMp6p2AMtld53MG/view?usp=sharing
 
 ## Resultados Principais
 
