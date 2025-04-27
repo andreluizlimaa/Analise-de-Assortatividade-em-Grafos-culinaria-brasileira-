@@ -18,6 +18,16 @@ Para este trabalho:
   - **Arestas**: co-ocorrência na mesma receita
   - **Tipos de ingredientes**: Proteína, Carboidrato, Vegetal, Fruta, Laticínio, Gordura, Condimento, Outro
 
+## Ferramentas e Bibliotecas Utilizadas
+
+- **Python **
+- **NetworkX**: Para criação, manipulação e análise de estruturas de rede
+- **Pandas**: Para manipulação e análise de dados
+- **Matplotlib** e **Seaborn**: Para visualização de dados e gráficos
+- **NumPy**: Para operações numéricas
+
+As versões de cada uma delas pode ser encontrada no arquivo requirements.txt.
+
 ## Apresentação do Trabalho
 
 [Link para o vídeo de apresentação (até 5min)]
