@@ -1,8 +1,8 @@
 # Análise de Assortatividade na Culinária Brasileira
 
-**Nome completo:** André Luiz Lima Souza  
-**Matrícula:** 20240001233
+**Nome completo:** André Luiz Lima Souza
 
+**Matrícula:** 20240001233
 **Curso:** Engenharia da Computação
 
 ## Objetivo da Atividade
