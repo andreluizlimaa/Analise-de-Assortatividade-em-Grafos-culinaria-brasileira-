@@ -20,7 +20,7 @@ Para este trabalho:
 
 ## Ferramentas e Bibliotecas Utilizadas
 
-- **Python **
+- **Python **: Para criação, análise e auxilio das outras bibliotecas
 - **NetworkX**: Para criação, manipulação e análise de estruturas de rede
 - **Pandas**: Para manipulação e análise de dados
 - **Matplotlib** e **Seaborn**: Para visualização de dados e gráficos
