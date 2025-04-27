@@ -64,18 +64,20 @@ Observações importantes:
 
 ### Top 10 Co-ocorrências por Tipo
 
+Com base na matriz de co-ocorrência normalizada:
+
 | Ranking | Combinação | Percentual |
 |---------|------------|------------|
-| 1 | Condimento + Vegetal | 9.23% |
-| 2 | Proteína + Vegetal | 9.09% |
-| 3 | Condimento + Proteína | 6.96% |
-| 4 | Carboidrato + Proteína | 5.68% |
-| 5 | Vegetal + Vegetal | 5.54% |
-| 6 | Carboidrato + Condimento | 5.54% |
-| 7 | Carboidrato + Vegetal | 4.69% |
-| 8 | Carboidrato + Fruta | 4.55% |
-| 9 | Carboidrato + Laticínio | 4.40% |
-| 10 | Carboidrato + Gordura | 3.69% |
+| 1 | Fruta + Carboidrato | 31% |
+| 2 | Laticínio + Carboidrato | 31% |
+| 3 | Vegetal + Outro | 26% |
+| 4 | Proteína + Outro | 27% |
+| 5 | Condimento + Outro | 26% |
+| 6 | Vegetal + Proteína | 22% |
+| 7 | Vegetal + Condimento | 22% |
+| 8 | Gordura + Carboidrato | 21% |
+| 9 | Gordura + Outro | 21% |
+| 10 | Proteína + Condimento | 21% |
 
 ### Análise de Homofilia vs. Heterofilia
 
@@ -91,13 +93,15 @@ A análise de assortatividade do grafo de co-ocorrência de ingredientes da culi
 
 A forte heterofilia observada (85.37%) reflete características fundamentais da culinária brasileira:
 
-1. **Equilíbrio Nutricional**: A combinação frequente entre proteínas, carboidratos e vegetais (as três co-ocorrências mais altas) demonstra um padrão que favorece refeições nutricionalmente balanceadas.
+1. **Equilíbrio Nutricional**: A combinação frequente entre diferentes tipos de ingredientes demonstra um padrão que favorece refeições nutricionalmente balanceadas.
 
 2. **Influências Multiculturais**: A fusão de tradições culinárias indígenas, europeias e africanas resultou em uma gastronomia que valoriza contrastes.
 
-3. **Papel dos Vegetais**: Os vegetais se destacam como os ingredientes mais conectados (grau médio 22.43), funcionando como elementos unificadores na culinária brasileira.
+3. **Papel dos Vegetais**: Os vegetais se destacam como os ingredientes mais conectados (grau médio 22.43), funcionando como elementos unificadores na culinária brasileira. Especificamente, alho, cebola e tomate aparecem como hubs centrais no grafo.
 
-4. **Importância dos Condimentos**: A alta ocorrência de "Condimento + Vegetal" (9.23%) e "Condimento + Proteína" (6.96%) ressalta como os temperos são essenciais para unir diferentes tipos de ingredientes.
+4. **Importância dos Carboidratos como Base**: A alta co-ocorrência de Carboidrato com Fruta (31%) e Laticínio (31%) revela como os carboidratos servem de base para diversas preparações, especialmente doces e sobremesas típicas.
+
+5. **Centralidade dos Condimentos**: Ingredientes como sal, pimenta e coentro são visualmente centrais no grafo, demonstrando seu papel fundamental na formação do perfil sensorial das receitas brasileiras.
 
 Estes resultados explicam padrões comuns na gastronomia brasileira:
 
@@ -105,6 +109,7 @@ Estes resultados explicam padrões comuns na gastronomia brasileira:
 - **Carnes com Farofa**: Proteína + Carboidrato
 - **Moquecas**: Proteína + Vegetal + Condimento + Gordura (azeite de dendê)
 - **Feijoada**: Proteína + Vegetal + Condimento
+- **Doces brasileiros**: Carboidrato + Fruta + Laticínio (como em quindins, cocadas, doce de leite)
 
 Observamos também que as gorduras, apesar de menos numerosas (apenas 5 ingredientes distintos), apresentam alto grau médio (15.20), indicando seu papel crucial como elementos de ligação entre diferentes receitas. Isso reflete a importância de ingredientes como azeite de dendê, manteiga e banha na formação do perfil sensorial das preparações.
 
@@ -114,7 +119,9 @@ O coeficiente de assortatividade calculado confirma a tendência heterofílica d
 
 A culinária brasileira demonstra uma forte tendência à heterofilia (85.37%), valorizando combinações contrastantes entre diferentes tipos de ingredientes. Esta característica reflete tanto a diversidade cultural quanto uma intuição nutricional que privilegia refeições equilibradas.
 
-O papel central dos vegetais e condimentos como "conectores" entre diferentes tipos de ingredientes sugere que estes são elementos fundamentais na identidade gastronômica brasileira. O valor negativo do coeficiente de assortatividade confirma quantitativamente esta tendência à heterofilia, indo além da mera observação qualitativa.
+O papel central dos vegetais e condimentos como "conectores" entre diferentes tipos de ingredientes sugere que estes são elementos fundamentais na identidade gastronômica brasileira. Simultaneamente, a forte relação entre carboidratos, frutas e laticínios destaca a importância das sobremesas e doces na cultura culinária do país.
+
+O valor negativo do coeficiente de assortatividade confirma quantitativamente esta tendência à heterofilia, indo além da mera observação qualitativa.
 
 Esta pesquisa contribui para uma compreensão mais profunda dos padrões estruturais da gastronomia brasileira e pode servir como base para estudos comparativos com outras culinárias regionais ou internacionais.
 
